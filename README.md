@@ -84,14 +84,18 @@ The successful distribution of gate values shows:
 ---
 
 ## 8. Execution Guide
-The repository contains clean, typed Python implementation code utilizing specific reproducibility anchors (`set_seed`).
+The repository contains clean, typed Python implementation code utilizing specific reproducibility anchors (`set_seed`), alongside a fully self-contained interactive Jupyter Notebook format.
 
+**Option 1: Run Natively (Python Script)**
 ```bash
 pip install torch torchvision matplotlib numpy
 python self_pruning_network.py
 ```
 
-**Outputs:**
+**Option 2: Run Interactively (Google Colab)**
+Upload `Self_Pruning_Network_Colab.ipynb` directly into [Google Colab](https://colab.research.google.com/) for immediate cloud-accelerated evaluation with integrated graphical mapping.
+
+**Runtime Outputs:**
 * `results.json` (Internal accuracy & sparsity matrix metrics)
 * `sparsity_distribution.png`
 * `sparsity_vs_accuracy.png`
