@@ -68,14 +68,18 @@ The network was evaluated across incrementally scaling penalties to identify the
 ---
 
 ## 6. Sparsity–Accuracy Trade-off
-![Trade-off Graph](sparsity_vs_accuracy.png)
+<p align="center">
+  <img src="sparsity_vs_accuracy.png" width="600">
+</p>
 
 This visually indicates that sparsity can be tuned logically and predictably using λ.
 
 ---
 
 ## 7. Gate Distribution Analysis
-![Gate Distribution](sparsity_distribution.png)
+<p align="center">
+  <img src="sparsity_distribution.png" width="600">
+</p>
 
 The successful distribution of gate values shows:
 * A massive, dense spike near 0 → obsolete connections are successfully discarded exactly as requested.
